@@ -1,0 +1,12 @@
+import React from 'react';
+import MessageHome from '../Message/MessageHome';
+
+const Dashboard = () => {
+    return (
+        <div>
+            <MessageHome></MessageHome>
+        </div>
+    );
+};
+
+export default Dashboard;
