@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import DashboardLayout from './Dashboard/DashboardLayout/DashboardLayout';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './Router/Route';
 
 function App() {
   return (
-   <>
-   <DashboardLayout/>
-   </>
-   
+    <div >
+      <RouterProvider router={router}>
+
+      </RouterProvider>
+    </div>
   );
 }
 
