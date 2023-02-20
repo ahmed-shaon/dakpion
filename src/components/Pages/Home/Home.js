@@ -1,9 +1,10 @@
 import React from 'react';
+import MessageHome from '../Message/MessageHome';
 
 const Home = () => {
     return (
         <div>
-            <h1>I am home page</h1>
+           <MessageHome></MessageHome>
         </div>
     );
 };
